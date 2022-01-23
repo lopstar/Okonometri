@@ -1,0 +1,86 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Eksamensopgave 1}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Use the following data from your exercises:}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Make sure that you first remove the seasonality (run an F-test to see if this is necessary). Make sure to write the regression equations and hypotheses when you perform these procedures.}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Plot the series with and without seasonality on the same graph.}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}If there is a trend in the data, detrend the variables using HP-filter. Use the HP-filter with \(\mitlambda = 1600\). Don't forget to re-normalize the series}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Explore the dynamic correlations (or cross-correlations) using real GDP as a reference variable. You can make a Table like the one in Lecture no. 2. Also, show the plots of dynamic correlations. The plots should clearly show all the statistically relevant lags.}{9}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Calculate cyclical volatility of your data.}{12}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Do a short and precise commentary on the correlations and volatility (e.g., which variable is the most and least volatile, which variables are procyclical and countercyclical, which variables lag and lead the business cycle, etc.).}{13}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Eksamensopgave 2}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Mathematically derive the equation for Dicky-Fuller test.}{15}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}A sequential ADF test on it. Please follow the sequential process (as shown in Pfaff's figure 3.3) carefully.}{16}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Cross-check your results with Philip-Perron test for unit root}{19}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Do you suspect your time series to be affected by a structural break? If yes, then perform a structural break unit root test using Zivot and Andrews test in R. Does your result regarding the unit root change or hold?}{19}{subsubsection.2.1.3}%
+\contentsline {section}{\numberline {3}Eksamensopgave 3}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Chose any timeseries of your choice:}{22}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}1. Find the order of integration (by performing the unit root test - make sure your unit root tests are not afected by serial correlation issues)}{22}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Inspektion af data}{22}{subsubsection.3.2.1}%
+\contentsline {paragraph}{\numberline {3.2.1.1}Seasonality og trend}{22}{paragraph.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Unit root tests}{24}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Seriekorrelation}{26}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}2. Look at acf and pacf of you data and fit an ARIMA model.}{27}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Robusthedstest}{29}{subsubsection.3.3.1}%
+\contentsline {paragraph}{\numberline {3.3.1.1}Normality}{29}{paragraph.3.3.1.1}%
+\contentsline {paragraph}{\numberline {3.3.1.2}Lags(Har vi rette antal lags med)}{30}{paragraph.3.3.1.2}%
+\contentsline {paragraph}{\numberline {3.3.1.3}ARCH}{30}{paragraph.3.3.1.3}%
+\contentsline {subsection}{\numberline {3.4}3. Perform an in-sample forecast of your selected models}{31}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}4. Compare your foretasted models with the performance of an AR(1) model.}{32}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}5. Perform forecast evaluations of your models using:}{32}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Regression based method:}{32}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Mean square prediction error (MPSE)}{33}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Root Mean Square Error (RMSE)}{33}{subsubsection.3.6.3}%
+\contentsline {section}{\numberline {4}Eksamensopgave 4}{34}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Theoretical part}{35}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Assume a simple ARDL (1,1) model as follows:}{35}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Empirical part}{36}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Choose time series data of your choice for at least 3 variables (preferably monthly/quarterly data without too many structural breaks)}{36}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Assume, you are interested in investigating the following relationship}{36}{subsubsection.4.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1}Please briefly motivate (theoretically), why do you think this relation-ship should exist in your data?}{36}{paragraph.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.3}1. Find the order of integration (by performing the unit root test -make sure your unit root tests are not affected by serial correlation issues)}{37}{subsubsection.4.2.3}%
+\contentsline {paragraph}{\numberline {4.2.3.1}make sure your unit root tests are not affected by serial correlation issues)}{40}{paragraph.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.4}2. Perform both Engle-Granger test for cointegration and ARDL bounds test for cointegration. Is there cointegration in your data?}{43}{subsubsection.4.2.4}%
+\contentsline {paragraph}{\numberline {4.2.4.1}Engle-Granger}{43}{paragraph.4.2.4.1}%
+\contentsline {paragraph}{\numberline {4.2.4.2}ARDL-bounds}{44}{paragraph.4.2.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.5}3. What are the cointegration parameters}{45}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}4. Assume, cointegration exists in your model, perform an error correction model. Please interpret the error correction model (i.e., interpret the coefficient on the error term, interpret the short-run and long-run relationships).}{46}{subsubsection.4.2.6}%
+\contentsline {paragraph}{\numberline {4.2.6.1}Speed of adjustment}{48}{paragraph.4.2.6.1}%
+\contentsline {subsubsection}{\numberline {4.2.7}Diagnostics:}{50}{subsubsection.4.2.7}%
+\contentsline {paragraph}{\numberline {4.2.7.1}Perform serial correlation and ARCH test}{50}{paragraph.4.2.7.1}%
+\contentsline {paragraph}{\numberline {4.2.7.2}Test the model for the assumption of normality}{51}{paragraph.4.2.7.2}%
+\contentsline {paragraph}{\numberline {4.2.7.3}Show parameter stability of your model using strucchange pack-age in R. Are your estimates reliable? Remember, strucchange package in R only recognises models coded using lm() function.}{52}{paragraph.4.2.7.3}%
+\contentsline {section}{\numberline {5}Appendix}{53}{section.5}%
+\contentsline {subsection}{\numberline {5.1}HP-filter}{53}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Unit root cirkel}{55}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Antagelser}{56}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Gauss-Markov Antagelser - Unbiasedness of OLS}{56}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Asymtopiske egenskaber i OLS ved tidsserier}{57}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.4}Teoretisk del}{58}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Basic concepts of time series data}{59}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Main components of time series data(seasonal, cyclical, trend, stocastic)\\ }{59}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Random walk process}{59}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}White Noise (Purely Random Process)}{61}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Stationarity}{61}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.5}Trend- Versus Difference-Stationary Series}{62}{subsubsection.5.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.6}Unit root tests(Dickey Fuller and ADF)}{62}{subsubsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.6}Univariate time series analysis}{64}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Auto regressive (AR)}{64}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Moving average (MA)}{64}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Autoregressive-moving-average models (ARMA)}{64}{subsubsection.5.6.3}%
+\contentsline {subsubsection}{\numberline {5.6.4}Autoregressive integrated moving average (ARIMA)}{64}{subsubsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.7}Introduction to multivariate Time Series Analysis}{65}{subsection.5.7}%
+\contentsline {subsubsection}{\numberline {5.7.1}Cointegration}{65}{subsubsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.2}Error correction model(ECM)}{65}{subsubsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.3}Autoregressive distributed lag model(ARDL)}{65}{subsubsection.5.7.3}%
+\contentsline {subsubsection}{\numberline {5.7.4}Engle-Granger Procedure}{65}{subsubsection.5.7.4}%
+\contentsline {subsubsection}{\numberline {5.7.5}Vector autoregressive (VAR) modeller}{66}{subsubsection.5.7.5}%
+\contentsline {subsubsection}{\numberline {5.7.6}Cholesky decomposition}{68}{subsubsection.5.7.6}%
+\contentsline {subsection}{\numberline {5.8}Flere Begreber}{69}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Udledninger}{74}{subsection.5.9}%
+\contentsline {subsubsection}{\numberline {5.9.1}Basale udledninger}{74}{subsubsection.5.9.1}%
+\contentsline {subsubsection}{\numberline {5.9.2}Tidsserie-relevante udledninger}{76}{subsubsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.3}Moving Average Process}{79}{subsubsection.5.9.3}%
+\contentsline {subsubsection}{\numberline {5.9.4}Autoregressive Processes}{85}{subsubsection.5.9.4}%
+\contentsline {section}{\numberline {6}Tau-værdier (Kritiske værdier)}{91}{section.6}%
+\contentsline {section}{\numberline {7}Sequential process}{93}{section.7}%
+\contentsline {section}{\numberline {8}Litteraturliste}{94}{section.8}%
